@@ -1,6 +1,8 @@
 # ST-Device-with_Siri-main
 
+
 Works to control on Samsung Smartthings and Apple homekits across shortcuts without any complex bridges.
+
 
 A. Samsung TV smartthings access from Iphone, Macbook, or Ipad.
 
@@ -8,7 +10,11 @@ B. Touch to switch On/Off Samsung TV or change desired Channel.
 
 C. Ask Siri to control Samsung TV or devices from smartthings.
 
+
+
+
 Procedure and Steps:
+
 To use these functions to control Samsung device, any command shortcuts "test device on"
 and one common API shortcut "ST_Device_CMD_API".
 
@@ -16,6 +22,8 @@ Command shortcut will prepare JSON data and call API shortcut to post data to de
 
 Before use of API shortcut, you need to edit 'pat' feild with your personal access token(ID) for the ST_Rule_API,
 go to smartthings page for Authorization and Permissions provided by https://developer.smartthings.com/docs/getting-started/authorization-and-permissions
+
+
 
 
 Tips for using command shortcuts:
@@ -32,5 +40,6 @@ Tips for using command shortcuts:
 5. Use Siri to execute your Shortcuts by saying “Hey Siri Shortcut yourShortName” or “Hey Siri yourShortName”
 
 6. Once you’ve created your Shortcuts, you can added them to your Home Screen as well as widget for execution. 
+
 
 Good Luck and Enjoy!
