@@ -6,7 +6,7 @@ a. Samsung TV smartthings access from Iphone, Macbook, or Ipad.
 
 b. Touch to switch On/Off Samsung TV or change desired Channel.
 
-c. Ask Siri to control Samsung TV or devices access from smartthings.
+c. Ask Siri to control Samsung TV or devices from smartthings.
 
 Procedure and Steps:
 
