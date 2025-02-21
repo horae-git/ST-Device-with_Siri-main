@@ -20,8 +20,7 @@ To control a Samsung device using these functions, you need to modify additional
 
 Command shortcut will prepare JSON data and call API shortcut to post data to desired samsung device.
 
-Before use of API shortcut, you need to edit 'pat' field with your personal access token(ID) for the ST_Rule_API,
-go to smartthings page for Authorization and Permissions provided by https://developer.smartthings.com/docs/getting-started/authorization-and-permissions
+Before use of API shortcut, you need to edit 'pat' field with your personal access token(ID) for the ST_Device_CMD_API, go to smartthings page for Authorization and Permissions provided by https://developer.smartthings.com/docs/getting-started/authorization-and-permissions
 
 
 
