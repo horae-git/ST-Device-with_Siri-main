@@ -1,0 +1,345 @@
+{
+  "ST_DEVICES": [
+   [
+    {
+      "component": "list name of Export data from",
+      "capability": "smartthings advanced users",
+      "command": "shows as below:"
+    }
+   ],
+   [
+    {
+      "component": "componentId",
+      "capability": "capabilityId",
+      "command": "name"
+    }
+   ]       
+  ],
+  "command": [
+    [
+      {
+        "component": "main",
+        "capability": "switch",
+        "command": "on"
+      }
+    ],
+    [
+      {
+        "component": "main",
+        "capability": "switch",
+        "command": "off"
+      }
+    ],
+    [
+      {
+        "component": "main",
+        "capability": "audioMute",
+        "command": "mute"
+      }
+    ],
+    [
+      {
+        "component": "main",
+        "capability": "audioMute",
+        "command": "unmute"
+      }
+    ],
+    [
+      {
+        "component": "main",
+        "capability": "tvChannel",
+        "command": "setTvChannel",
+        "arguments": [
+          "81"
+        ]
+      }
+    ],
+    [
+      {
+        "component": "main",
+        "capability": "tvChannel",
+        "command": "setTvChannel",
+        "arguments": [
+          "83"
+        ]
+      }
+    ]
+  ],
+  "ST_Reference": [
+    {
+      "component": "main",
+      "capability": "audioMute",
+      "command": "mute"
+    },
+    {
+      "component": "main",
+      "capability": "audioMute",
+      "command": "setMute"
+    },
+    {
+      "component": "main",
+      "capability": "audioMute",
+      "command": "unmute"
+    },
+    {
+      "component": "main",
+      "capability": "audioVolume",
+      "command": "setVolume"
+    },
+    {
+      "component": "main",
+      "capability": "audioVolume",
+      "command": "volumeDown"
+    },
+    {
+      "component": "main",
+      "capability": "audioVolume",
+      "command": "volumeUp"
+    },
+    {
+      "component": "main",
+      "capability": "custom.accessibility",
+      "command": "setAccessibility"
+    },
+    {
+      "component": "main",
+      "capability": "custom.energyType",
+      "command": "setEnergySavingLevel"
+    },
+    {
+      "component": "main",
+      "capability": "custom.error",
+      "command": "setError"
+    },
+    {
+      "component": "main",
+      "capability": "custom.launchapp",
+      "command": "launchApp"
+    },
+    {
+      "component": "main",
+      "capability": "custom.recording",
+      "command": "recordStart"
+    },
+    {
+      "component": "main",
+      "capability": "custom.recording",
+      "command": "recordStop"
+    },
+    {
+      "component": "main",
+      "capability": "custom.tvsearch",
+      "command": "search"
+    },
+    {
+      "component": "main",
+      "capability": "demandResponseLoadControl",
+      "command": "overrideDrlcAction"
+    },
+    {
+      "component": "main",
+      "capability": "demandResponseLoadControl",
+      "command": "requestDrlcAction"
+    },
+    {
+      "component": "main",
+      "capability": "execute",
+      "command": "execute"
+    },
+    {
+      "component": "main",
+      "capability": "logTrigger",
+      "command": "triggerLog"
+    },
+    {
+      "component": "main",
+      "capability": "logTrigger",
+      "command": "triggerLogWithLogInfo"
+    },
+    {
+      "component": "main",
+      "capability": "logTrigger",
+      "command": "triggerLogWithUrl"
+    },
+    {
+      "component": "main",
+      "capability": "mediaInputSource",
+      "command": "setInputSource"
+    },
+    {
+      "component": "main",
+      "capability": "mediaPlayback",
+      "command": "fastForward"
+    },
+    {
+      "component": "main",
+      "capability": "mediaPlayback",
+      "command": "pause"
+    },
+    {
+      "component": "main",
+      "capability": "mediaPlayback",
+      "command": "play"
+    },
+    {
+      "component": "main",
+      "capability": "mediaPlayback",
+      "command": "rewind"
+    },
+    {
+      "component": "main",
+      "capability": "mediaPlayback",
+      "command": "setPlaybackStatus"
+    },
+    {
+      "component": "main",
+      "capability": "mediaPlayback",
+      "command": "stop"
+    },
+    {
+      "component": "main",
+      "capability": "mediaTrackControl",
+      "command": "nextTrack"
+    },
+    {
+      "component": "main",
+      "capability": "mediaTrackControl",
+      "command": "previousTrack"
+    },
+    {
+      "component": "main",
+      "capability": "ocf",
+      "command": "postOcfCommand"
+    },
+    {
+      "component": "main",
+      "capability": "refresh",
+      "command": "refresh"
+    },
+    {
+      "component": "main",
+      "capability": "samsungim.findNodeGeolocation",
+      "command": "update"
+    },
+    {
+      "component": "main",
+      "capability": "samsungim.fixedFindNode",
+      "command": "refresh"
+    },
+    {
+      "component": "main",
+      "capability": "samsungvd.ambient",
+      "command": "setAmbientOn"
+    },
+    {
+      "component": "main",
+      "capability": "samsungvd.ambientContent",
+      "command": "setAmbientContent"
+    },
+    {
+      "component": "main",
+      "capability": "samsungvd.appControl",
+      "command": "launch"
+    },
+    {
+      "component": "main",
+      "capability": "samsungvd.firmwareVersion",
+      "command": "setFirmwareVersion"
+    },
+    {
+      "component": "main",
+      "capability": "samsungvd.lightControl",
+      "command": "setLightControlMode"
+    },
+    {
+      "component": "main",
+      "capability": "samsungvd.mediaInputSource",
+      "command": "setInputSource"
+    },
+    {
+      "component": "main",
+      "capability": "samsungvd.mediaOutput",
+      "command": "changeOutput"
+    },
+    {
+      "component": "main",
+      "capability": "samsungvd.mediaOutput",
+      "command": "refreshList"
+    },
+    {
+      "component": "main",
+      "capability": "samsungvd.pictureMode",
+      "command": "setPictureMode"
+    },
+    {
+      "component": "main",
+      "capability": "samsungvd.remoteControl",
+      "command": "send"
+    },
+    {
+      "component": "main",
+      "capability": "samsungvd.sensorStates",
+      "command": "setSensorState"
+    },
+    {
+      "component": "main",
+      "capability": "samsungvd.soundMode",
+      "command": "setSoundMode"
+    },
+    {
+      "component": "main",
+      "capability": "sec.deviceConnectionState",
+      "command": "refreshConnection"
+    },
+    {
+      "component": "main",
+      "capability": "sec.smartthingsHub",
+      "command": "cancelOnboarding"
+    },
+    {
+      "component": "main",
+      "capability": "sec.smartthingsHub",
+      "command": "onboarding"
+    },
+    {
+      "component": "main",
+      "capability": "soundDetection",
+      "command": "disableSoundDetection"
+    },
+    {
+      "component": "main",
+      "capability": "soundDetection",
+      "command": "enableSoundDetection"
+    },
+    {
+      "component": "main",
+      "capability": "switch",
+      "command": "off"
+    },
+    {
+      "component": "main",
+      "capability": "switch",
+      "command": "on"
+    },
+    {
+      "component": "main",
+      "capability": "tvChannel",
+      "command": "channelDown"
+    },
+    {
+      "component": "main",
+      "capability": "tvChannel",
+      "command": "channelUp"
+    },
+    {
+      "component": "main",
+      "capability": "tvChannel",
+      "command": "setTvChannel"
+    },
+    {
+      "component": "main",
+      "capability": "tvChannel",
+      "command": "setTvChannelcommand"
+    }
+  ]
+}
