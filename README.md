@@ -13,6 +13,8 @@ C. Simply ask Siri to control your Samsung TV or other SmartThings-linked device
 ---
 
 
+![TV Command](TV_Command.png)
+
 
 Procedure and Steps:
 
@@ -42,3 +44,4 @@ Tips for using command shortcuts:
 
 
 Good Luck and Enjoy!
+
